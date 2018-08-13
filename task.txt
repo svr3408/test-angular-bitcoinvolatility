@@ -1,0 +1,11 @@
+Дано: 
+API: https://api.cryptonator.com/api/ticker/btc-usd 
+Звук: https://bitcoinvolatility.io/wp-content/plugins/btc-alert/sound.mp3 
+Мокап: https://www.dropbox.com/s/wys5lcqs8pp50zd/bitcoinvolatility.png
+  bitcoinvolatility.png
+
+Сверстать страницу с таблицей. 
+Раз 10 секунд получать данные с API и записывать в таблицу. Если значение price меньше значение введенного в инпуте сверху таблицы, проигрывать звук. 
+Внизу таблицы есть пагинация, кол-во строк странице контролируется через select tag. 
+Каждую строку таблицу можно удалить и поменять значения DateTime и Price. 
+Все это надо сделать на angular6.
